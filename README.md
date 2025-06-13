@@ -335,15 +335,3 @@ permissions = get_user_permissions(101, system_roles)
 </table>
 
 ---
-
-<div align="center">
-
-### 🚀 Prêt à Optimiser Votre Workflow de Développement ?
-
-**Mettez en pratique ces techniques pour maximiser l'efficacité de l'IA générative dans vos projets !**
-
----
-
-*Réalisé avec ❤️ pour la communauté des développeurs*
-
-</div>
