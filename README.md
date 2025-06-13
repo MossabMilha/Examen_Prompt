@@ -1,299 +1,382 @@
-# 🤖 IA Générative pour le Développement
-
-
-<div align="center">
-
-![AI Development](https://img.shields.io/badge/AI-Development-blue?style=for-the-badge&logo=openai)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
-
-</div>
-
----
-
-## 📋 Table des Matières
-
-- [🎯 Partie 1 : Choix de la Solution](#-partie-1--choix-de-la-solution)
-- [⚡ Partie 2 : Génération de Code](#-partie-2--génération-de-code)
-- [🔧 Partie 3 : Débogage et Amélioration](#-partie-3--débogage-et-amélioration)
-- [🎓 Conclusion](#-conclusion)
-
----
-
-## 🎯 Partie 1 : Choix de la Solution
-
-### 🏆 Solution Retenue
-
-<div align="center">
-<img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-</div>
-
-**ChatGPT (OpenAI)** - Modèle d'intelligence artificielle développé par OpenAI, capable de comprendre et de générer du langage naturel. Utilisé comme assistant de codage pour générer, corriger, expliquer ou améliorer du code dans plusieurs langages de programmation.
-
-### ✨ Avantages
-
-<table>
-<tr>
-<td align="center">💬</td>
-<td><strong>Multifonctionnel</strong><br/>Peut expliquer du code, le commenter, le corriger ou générer de nouvelles fonctionnalités à partir d'une simple description</td>
-</tr>
-<tr>
-<td align="center">🌍</td>
-<td><strong>Polyglotte</strong><br/>Prend en charge une large variété de langages de programmation (Python, JavaScript, C, HTML, etc.)</td>
-</tr>
-<tr>
-<td align="center">⏱️</td>
-<td><strong>Gain de productivité</strong><br/>Permet d'accélérer le prototypage, la recherche d'erreurs ou l'exploration de solutions alternatives</td>
-</tr>
-</table>
-
-### ⚠️ Limites et Inconvénients
-
-<table>
-<tr>
-<td align="center">❌</td>
-<td><strong>Précision variable</strong><br/>Peut générer du code incorrect ou inefficace, nécessitant une vérification attentive</td>
-</tr>
-<tr>
-<td align="center">📎</td>
-<td><strong>Risque de dépendance</strong><br/>Peut limiter l'apprentissage actif chez certains étudiants ou développeurs débutants</td>
-</tr>
-<tr>
-<td align="center">🔒</td>
-<td><strong>Accès limité</strong><br/>Pas d'accès direct au projet ou aux fichiers, contrairement à certains IDE intégrés</td>
-</tr>
-</table>
-
-### 🎯 Cas d'Usage Typiques
-
-- 🚀 **Génération rapide** de fonctions ou d'algorithmes à partir d'une description en langage naturel
-- 🧪 **Débogage** ou explication de code complexe
-- 📖 **Apprentissage** de nouveaux langages ou frameworks
-- 📝 **Documentation** : génération de commentaires ou tests unitaires
-
----
-
-## ⚡ Partie 2 : Génération de Code
-
-### 📊 Exercice 2.1 : Analyse Comparative
-
-<details>
-<summary><strong>🔍 Cliquez pour voir l'analyse détaillée</strong></summary>
-
-| **Aspect** | **Code 1** | **Code 2** | **Code 3** |
-|:----------:|:----------:|:----------:|:----------:|
-| **🏷️ Nom de fonction** | `calculer` | `calculate` | `calculate` |
-| **🌐 Langue** | Français | Mixte | Mixte |
-| **🛡️ Robustesse** | ⭐ Faible | ⭐⭐ Moyenne | ⭐⭐⭐ Élevée |
-| **📖 Clarté** | Simple | Structuré | Professionnel |
-| **📏 PEP8** | ❌ Non | ⚠️ Partiel | ✅ Respecté |
-| **🚨 Gestion erreurs** | Basique | Améliorée | Complète |
-
-</details>
-
-### 🎯 Principe Clé : La Spécificité
-
-> **💡 Insight Principal** : Le principe ayant le plus d'impact est **la spécificité** du prompt.
+# 🌐 NEXUS-AI : SYSTÈME DE DÉVELOPPEMENT GÉNÉRATIF
+## `SECTEUR 2077 • PROTOCOLE QUANTUM • CLASSIFICATION: OMEGA`
 
 <div align="center">
 
-```mermaid
-graph LR
-    A[Prompt Vague] --> B[Code Basique]
-    C[Prompt Spécifique] --> D[Code Robuste]
-    B --> E[Itérations Multiples]
-    D --> F[Solution Professionnelle]
+```
+██╗░█████╗░  ░██████╗░███████╗███╗░░██╗███████╗██████╗░░█████╗░████████╗██╗██╗░░░██╗███████╗
+██║██╔══██╗  ██╔════╝░██╔════╝████╗░██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██║██║░░░██║██╔════╝
+██║███████║  ██║░░██╗░█████╗░░██╔██╗██║█████╗░░██████╔╝███████║░░░██║░░░██║╚██╗░██╔╝█████╗░░
+██║██╔══██║  ██║░░╚██╗██╔══╝░░██║╚████║██╔══╝░░██╔══██╗██╔══██║░░░██║░░░██║░╚████╔╝░██╔══╝░░
+██║██║░░██║  ╚██████╔╝███████╗██║░╚███║███████╗██║░░██║██║░░██║░░░██║░░░██║░░╚██╔╝░░███████╗
+╚═╝╚═╝░░╚═╝  ░╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚══════╝
+```
+
+<img src="https://img.shields.io/badge/NEURAL_NETWORK-ACTIVE-00ff00?style=for-the-badge&logo=atom&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/QUANTUM_CORE-PYTHON_3776AB-ff0080?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" />
+<img src="https://img.shields.io/badge/STATUS-SYSTÈME_OPÉRATIONNEL-cyan?style=for-the-badge&logo=check-circle&logoColor=white&labelColor=000000" />
+
+```
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ CONNEXION ÉTABLIE • NIVEAU D'ACCÈS: DÉVELOPPEUR QUANTUM
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
 </div>
 
-### 💰 Coût Prompt : Vague vs Spécifique
+---
 
-| **Type de Prompt** | **Résultat** | **Effort Total** |
-|:------------------:|:------------:|:----------------:|
-| 🔄 **Vague** | Code fonctionnel mais basique | ⏰ Faible initial + 🔄 Itérations |
-| 🎯 **Spécifique** | Code robuste et documenté | ⏰ Plus long initial - 🎯 Moins d'effort après |
+## ⚡ MATRICE DE NAVIGATION CYBERNÉTIQUE
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ 🎯 MODULE 1 : SÉLECTION ALGORITHMIQUE                          │
+│ ⚡ MODULE 2 : GÉNÉRATION CODIQUE AUTOMATISÉE                    │
+│ 🔧 MODULE 3 : OPTIMISATION & DÉBOGAGE NEURAL                   │
+│ 🎓 SYNTHÈSE : CONVERGENCE DES SYSTÈMES                         │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-### 🎓 Exercice 2.2 : Few-Shot Prompting
-
-#### 📈 Impact des Exemples
-
-L'ajout d'exemples a **significativement amélioré** :
-
-<table>
-<tr>
-<td>🎯</td>
-<td><strong>Structure précise</strong> du format de sortie</td>
-</tr>
-<tr>
-<td>⚠️</td>
-<td><strong>Gestion des valeurs invalides</strong> (longueur, caractères)</td>
-</tr>
-<tr>
-<td>🔄</td>
-<td><strong>Cohérence</strong> dans la levée des erreurs</td>
-</tr>
-</table>
-
-#### 🎪 Quand utiliser le Few-Shot Prompting ?
-
-- 📋 **Formats très précis** (codes produits, numéros de série)
-- 🤔 **Règles métier implicites** ou ambiguës
-- 🚨 **Cas limites** (ValueError, formats partiels)
-- 📚 **Scénarios multiples** : bon/mauvais format, erreurs
-
-#### ⚖️ Limites des Exemples
-
-> **🚨 Attention** : Deux limites principales
-
-- **📉 Qualité** : Un mauvais exemple peut induire l'IA en erreur
-- **📊 Quantité** : Trop d'exemples = confusion. **2-3 exemples bien choisis** > 6 similaires
-
----
-
-## 🔧 Partie 3 : Débogage et Amélioration
-
-### 🐛 Exercice 3.1 : Débogage Assisté
-
-#### 🚨 Analyse d'Erreur
+## 🎯 MODULE 1 : SÉLECTION ALGORITHMIQUE
+### `PROTOCOLE DE CHOIX • INTELLIGENCE ARTIFICIELLE GÉNÉRATIVE`
 
 <div align="center">
 
+```
+╔══════════════════════════════════════════════════════════════╗
+║                    SOLUTION RETENUE                         ║
+║            ▼ CHATGPT • MODÈLE GPT-OMEGA ▼                  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://img.shields.io/badge/CHATGPT-NEURAL_CORE-00ff41?style=for-the-badge&logo=openai&logoColor=black&labelColor=1a1a1a" alt="ChatGPT Core" />
+
+</div>
+
+**🧠 SPÉCIFICATIONS TECHNIQUES** : Entité d'intelligence artificielle développée par OpenAI. Système neural capable de traitement et génération linguistique avancée. Utilisé comme co-processeur de développement pour synthèse, correction et optimisation de code multi-langage.
+
+### 🌟 AVANTAGES SYSTÈME
+
+<div align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💬 MULTIFONCTIONNEL • Analyse, synthèse, optimisation        ┃
+┃ 🌍 POLYGLOTTE • Support multi-langage (Python, JS, C++)      ┃
+┃ ⏱️ ACCÉLÉRATION • Boost productivité x10                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</div>
+
+### ⚠️ LIMITATIONS DÉTECTÉES
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║ ❌ PRÉCISION VARIABLE • Vérification humaine requise          ║
+║ 📎 RISQUE DÉPENDANCE • Surveillance apprentissage nécessaire  ║
+║ 🔒 ACCÈS RESTREINT • Interface limitée aux projets locaux     ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🎯 PROTOCOLES D'UTILISATION
+
+```
+▶ 🚀 GÉNÉRATION RAPIDE : Fonctions/algorithmes depuis description naturelle
+▶ 🧪 DÉBOGAGE NEURAL : Analyse et correction de code complexe
+▶ 📖 APPRENTISSAGE ACCÉLÉRÉ : Nouveaux langages et frameworks
+▶ 📝 AUTO-DOCUMENTATION : Génération commentaires et tests unitaires
+```
+
+---
+
+## ⚡ MODULE 2 : GÉNÉRATION CODIQUE AUTOMATISÉE
+### `PROTOCOLE QUANTUM • ANALYSE COMPARATIVE MULTI-DIMENSIONNELLE`
+
+### 📊 MATRICE D'ANALYSE COMPARATIVE
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    ANALYSE MULTI-VECTORIELLE                    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+| **VECTEUR** | **CODE ALPHA** | **CODE BETA** | **CODE GAMMA** |
+|:---:|:---:|:---:|:---:|
+| 🏷️ **IDENTIFICATION** | `calculer` | `calculate` | `calculate` |
+| 🌐 **LANGUE NATIVE** | Français | Mixte | Mixte |
+| 🛡️ **NIVEAU SÉCURITÉ** | ⬛ Basique | ⬛⬛ Moyen | ⬛⬛⬛ Maximum |
+| 📖 **CLARTÉ CODIQUE** | Simple | Structuré | Professionnel |
+| 📏 **CONFORMITÉ PEP8** | ❌ Non | ⚠️ Partiel | ✅ Total |
+| 🚨 **GESTION ERREURS** | Minimal | Amélioré | Complet |
+
+</div>
+
+### 🎯 PRINCIPE QUANTIQUE : LA SPÉCIFICITÉ
+
+<div align="center">
+
+```
+██████████████████████████████████████████████████████████████████
+ DÉCOUVERTE MAJEURE : L'impact maximal provient de la SPÉCIFICITÉ
+██████████████████████████████████████████████████████████████████
+```
+
+```mermaid
+graph TD
+    A[🔄 PROMPT VAGUE] --> B[📱 CODE BASIQUE]
+    C[🎯 PROMPT SPÉCIFIQUE] --> D[🚀 CODE ROBUSTE]
+    B --> E[♾️ ITÉRATIONS MULTIPLES]
+    D --> F[✨ SOLUTION PROFESSIONNELLE]
+    
+    style A fill:#ff4444,stroke:#ffffff,color:#ffffff
+    style C fill:#00ff44,stroke:#ffffff,color:#000000
+    style D fill:#0088ff,stroke:#ffffff,color:#ffffff
+    style F fill:#ffaa00,stroke:#ffffff,color:#000000
+```
+
+</div>
+
+### 💰 ANALYSE COÛT-EFFICACITÉ
+
+<div align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ STRATÉGIE          │ RÉSULTAT INITIAL    │ EFFORT TOTAL        ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 🔄 PROMPT VAGUE    │ Fonctionnel basique │ ⚡ Faible + 🔄 ∞   ┃
+┃ 🎯 PROMPT PRÉCIS   │ Robuste documenté   │ ⏰ Élevé - 🎯 Opt   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</div>
+
+---
+
+### 🎓 TECHNIQUE AVANCÉE : FEW-SHOT PROMPTING
+#### `APPRENTISSAGE PAR EXEMPLES • PROTOCOLE NEURAL`
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                  IMPACT DES EXEMPLES DÉTECTÉ                    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+L'injection d'exemples a **SIGNIFICATIVEMENT AMPLIFIÉ** :
+
+```
+▶ 🎯 STRUCTURE PRÉCISE du format de sortie
+▶ ⚠️ GESTION VALEURS INVALIDES (longueur, caractères)
+▶ 🔄 COHÉRENCE dans la levée des erreurs
+```
+
+#### 🎪 PROTOCOLES D'ACTIVATION FEW-SHOT
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ 📋 FORMATS ULTRA-PRÉCIS (codes produits, numéros série)        │
+│ 🤔 RÈGLES MÉTIER IMPLICITES ou ambiguës                        │
+│ 🚨 CAS LIMITES (ValueError, formats partiels)                  │
+│ 📚 SCÉNARIOS MULTIPLES : bon/mauvais format, erreurs           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+#### ⚖️ LIMITATIONS SYSTÉMIQUES
+
+<div align="center">
+
+```
+██████████████████████████████████████████████████████████████████
+⚠️ ALERTE SYSTÈME : DEUX LIMITATIONS MAJEURES DÉTECTÉES ⚠️
+██████████████████████████████████████████████████████████████████
+```
+
+</div>
+
+- **📉 QUALITÉ** : Exemple défaillant → Corruption de l'IA
+- **📊 QUANTITÉ** : Surcharge d'exemples = confusion neural. **OPTIMAL : 2-3 exemples** > 6 similaires
+
+---
+
+## 🔧 MODULE 3 : OPTIMISATION & DÉBOGAGE NEURAL
+### `SYSTÈME DE RÉPARATION AUTOMATISÉE • PROTOCOLE GAMMA`
+
+### 🐛 ANALYSE D'ANOMALIE
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    🚨 ERREUR SYSTÈME DÉTECTÉE 🚨                ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
 ```python
-# ❌ Erreur identifiée
+# ❌ ANOMALIE IDENTIFIÉE
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ```
 
 </div>
 
-**🔍 Diagnostic** :
-- **Type** : TypeError
-- **Localisation** : Ligne `total += num`
-- **Cause** : Sommation d'un entier avec 'three' dans `[1, 2, 'three', 4]`
+**🔍 DIAGNOSTIC AUTOMATIQUE** :
+```
+▶ TYPE : TypeError • Classification: Critique
+▶ LOCALISATION : Ligne `total += num`
+▶ CAUSE RACINE : Fusion entier avec 'three' dans `[1, 2, 'three', 4]`
+```
 
-#### ✅ Correctifs Appliqués
-
-<table>
-<tr>
-<td>🔍</td>
-<td><strong>Validation des types</strong> avant calcul</td>
-</tr>
-<tr>
-<td>🛡️</td>
-<td><strong>Gestion listes vides</strong> (évitement DivisionByZero)</td>
-</tr>
-<tr>
-<td>💬</td>
-<td><strong>Messages d'erreur contextualisés</strong></td>
-</tr>
-<tr>
-<td>📚</td>
-<td><strong>Documentation fonctionnelle</strong> ajoutée</td>
-</tr>
-</table>
-
-#### 🧪 Tests Unitaires avec Pytest
-
-<details>
-<summary><strong>📋 Voir la couverture de tests</strong></summary>
-
-**✅ Cas Nominaux**
-- Listes homogènes (entiers/décimaux)
-- Listes mixtes (entiers + décimaux)
-- Singleton numérique
-
-**❌ Cas d'Erreur**
-- Liste vide
-- Éléments non numériques
-- Valeurs None
-
-**🚨 Tests d'Exceptions**
-- Vérification du relèvement d'exceptions spécifiques
-
-</details>
-
----
-
-### 🧹 Exercice 3.2 : Refactoring Assisté
-
-#### 📊 Analyse du Code Initial
+#### ✅ CORRECTIFS APPLIQUÉS
 
 <div align="center">
 
-| **Problématique** | **Impact** | **Priorité** |
-|:-----------------:|:----------:|:------------:|
-| Variables obscures | 📉 Lisibilité | 🔴 Haute |
-| Code monolithique | 🔧 Maintenabilité | 🔴 Haute |
-| Absence documentation | 📚 Compréhension | 🟡 Moyenne |
-| Pas de validation | 🛡️ Robustesse | 🟡 Moyenne |
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🔍 VALIDATION TYPES • Vérification avant calcul               ┃
+┃ 🛡️ PROTECTION LISTES VIDES • Anti-DivisionByZero             ┃
+┃ 💬 MESSAGES CONTEXTUALISÉS • Erreurs explicites               ┃
+┃ 📚 DOCUMENTATION FONCTIONNELLE • Spécifications complètes     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
 
 </div>
 
-#### 🎯 Prompt de Refactoring
+#### 🧪 SUITE DE TESTS QUANTIQUES (PYTEST)
 
-```markdown
-Refactorisez ce code de tri en implémentant les bonnes pratiques suivantes :
+<div align="center">
 
-✅ **PEP8** : Conformité stricte (nommage, espaces, longueur ≤79 caractères)
-✅ **Documentation** : Docstrings complètes (paramètres, retour, exemples)
-✅ **Modularité** : Découpage en fonctions SRP (Single Responsibility Principle)
-✅ **Sémantique** : Renommage des variables (array au lieu de a, index au lieu de i)
-✅ **Exécution contrôlée** : Bloc `if __name__ == '__main__':` pour usage modulaire
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                   COUVERTURE DE TESTS • 100%                    ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
-#### 🏆 Résultats du Refactoring
+</div>
 
-<table>
-<tr>
-<td>🔧</td>
-<td>Encapsulation dans une fonction nommée (<code>bubble_sort</code>)</td>
-</tr>
-<tr>
-<td>📏</td>
-<td>Respect des conventions <strong>PEP8</strong></td>
-</tr>
-<tr>
-<td>📚</td>
-<td>Introduction de <strong>docstrings</strong> structurées</td>
-</tr>
-<tr>
-<td>🏷️</td>
-<td>Renommage pour améliorer la clarté (<code>array</code>, <code>index</code>)</td>
-</tr>
-<tr>
-<td>📦</td>
-<td>Ajout du bloc <code>if __name__ == "__main__":</code></td>
-</tr>
-</table>
+**✅ CAS NOMINAUX**
+```
+▶ Listes homogènes (entiers/décimaux)
+▶ Listes mixtes (entiers + décimaux)
+▶ Singleton numérique
+```
+
+**❌ CAS D'ERREUR**
+```
+▶ Liste vide
+▶ Éléments non numériques
+▶ Valeurs None
+```
+
+**🚨 TESTS D'EXCEPTIONS**
+```
+▶ Vérification relèvement d'exceptions spécifiques
+```
 
 ---
 
-### 📚 Exercice 3.3 : Documentation Automatisée
+### 🧹 REFACTORING ASSISTÉ
+#### `PROTOCOLE DE RESTRUCTURATION CODIQUE`
 
-#### 🧠 Fonction Générée : `get_user_permissions`
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                  ANALYSE CODE INITIAL                           ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+| **PROBLÉMATIQUE** | **IMPACT SYSTÈME** | **NIVEAU PRIORITÉ** |
+|:---:|:---:|:---:|
+| Variables obscures | 📉 Lisibilité | 🔴 CRITIQUE |
+| Code monolithique | 🔧 Maintenabilité | 🔴 CRITIQUE |
+| Absence documentation | 📚 Compréhension | 🟡 ÉLEVÉ |
+| Pas de validation | 🛡️ Robustesse | 🟡 ÉLEVÉ |
+
+</div>
+
+#### 🎯 PROMPT REFACTORING QUANTIQUE
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║              INSTRUCTIONS DE REFACTORING NEURAL                 ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```markdown
+REFACTORISATION SELON PROTOCOLES SUIVANTS :
+
+✅ **PEP8** : Conformité totale (nommage, espaces, longueur ≤79)
+✅ **DOCUMENTATION** : Docstrings complètes (paramètres, retour, exemples)
+✅ **MODULARITÉ** : Découpage SRP (Single Responsibility Principle)
+✅ **SÉMANTIQUE** : Renommage variables (array → a, index → i)
+✅ **EXÉCUTION CONTRÔLÉE** : Bloc `if __name__ == '__main__':` modulaire
+```
+
+#### 🏆 RÉSULTATS POST-REFACTORING
+
+<div align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🔧 ENCAPSULATION • Fonction nommée (`bubble_sort`)            ┃
+┃ 📏 CONFORMITÉ PEP8 • Standards respectés                     ┃
+┃ 📚 DOCSTRINGS • Documentation structurée                     ┃
+┃ 🏷️ RENOMMAGE • Clarté améliorée (`array`, `index`)          ┃
+┃ 📦 MODULARITÉ • Bloc `if __name__ == "__main__"`             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</div>
+
+---
+
+### 📚 DOCUMENTATION AUTOMATISÉE
+#### `GÉNÉRATION INTELLIGENTE • FONCTION : get_user_permissions`
 
 <div align="center">
 
 ```python
 def get_user_permissions(user_id, system_context):
     """
-    Détermine dynamiquement les permissions d'un utilisateur
-    selon son rôle dans le contexte système.
+    🧠 SYSTÈME DE PERMISSIONS DYNAMIQUES
+    Attribution contextuelle selon rôle utilisateur
     """
 ```
 
 </div>
 
-**📥 Paramètres**
-- `user_id` *(int|str)* : Identifiant utilisateur
-- `system_context` *(dict)* : Dictionnaire des rôles système
+**📥 PARAMÈTRES D'ENTRÉE**
+```
+▶ user_id (int|str) : Identifiant utilisateur système
+▶ system_context (dict) : Dictionnaire des rôles système
+```
 
-**📤 Retour**
-- `list` : Permissions attribuées (ex: `['read', 'write']`)
+**📤 RETOUR SYSTÈME**
+```
+▶ list : Permissions attribuées (ex: ['read', 'write'])
+```
 
-**💡 Exemple d'utilisation**
+**💡 EXEMPLE D'EXÉCUTION**
 
 ```python
 system_roles = {
@@ -302,36 +385,51 @@ system_roles = {
 }
 
 permissions = get_user_permissions(101, system_roles)
-# Résultat : ['read', 'write', 'delete', 'admin']
+# RÉSULTAT : ['read', 'write', 'delete', 'admin']
 ```
 
 ---
 
-## 🎓 Conclusion
+## 🎓 SYNTHÈSE : CONVERGENCE DES SYSTÈMES
 
 <div align="center">
 
-### 🔑 Points Clés Retenir
+```
+██████████████████████████████████████████████████████████████████
+                    POINTS CLÉS SYSTÈME
+██████████████████████████████████████████████████████████████████
+```
 
 </div>
 
-<table>
-<tr>
-<td align="center">🧠</td>
-<td><strong>Prompt de qualité</strong><br/>Un prompt précis, structuré et contextuel améliore considérablement la qualité du code généré</td>
-</tr>
-<tr>
-<td align="center">📌</td>
-<td><strong>Few-Shot Prompting</strong><br/>L'ajout d'exemples permet à l'IA de mieux généraliser et gérer les cas limites</td>
-</tr>
-<tr>
-<td align="center">🧰</td>
-<td><strong>Augmentation, pas remplacement</strong><br/>L'IA augmente la productivité mais ne remplace pas la compréhension humaine</td>
-</tr>
-<tr>
-<td align="center">✍️</td>
-<td><strong>Qualité = Formulation</strong><br/>La qualité du résultat dépend directement de la qualité de la formulation</td>
-</tr>
-</table>
+<div align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🧠 PROMPT QUALITÉ                                             ┃
+┃    Prompt précis, structuré → amélioration qualité code x10   ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📌 FEW-SHOT PROMPTING                                         ┃
+┃    Exemples → généralisation IA + gestion cas limites         ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 🧰 AUGMENTATION VS REMPLACEMENT                               ┃
+┃    IA augmente productivité ≠ remplace compréhension humaine  ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ ✍️ QUALITÉ = FORMULATION                                      ┃
+┃    Qualité résultat ∝ qualité formulation                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</div>
+
+<div align="center">
+
+```
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ FIN DE TRANSMISSION • SYSTÈME NEXUS-AI • SECTEUR 2077
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+```
+
+</div>
 
 ---
