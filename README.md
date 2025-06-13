@@ -1,5 +1,5 @@
 # 🤖 IA Générative pour le Développement
-> Guide complet d'utilisation et d'optimisation des outils d'IA générative dans le développement logiciel
+
 
 <div align="center">
 
