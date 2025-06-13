@@ -479,16 +479,3 @@ def get_user_permissions(
 
 ---
 
-<div align="center">
-
-### 📞 **Support et Contact**
-
-![Email](https://img.shields.io/badge/Support-technical@company.com-1976d2?style=for-the-badge&logo=gmail&logoColor=white)
-![Docs](https://img.shields.io/badge/Documentation-wiki.company.com-00c853?style=for-the-badge&logo=gitbook&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-%23ai--development-4a154b?style=for-the-badge&logo=slack&logoColor=white)
-
----
-
-*Document v2.1.0 • Dernière mise à jour : Juin 2025 • Classification : Usage Interne*
-
-</div>
